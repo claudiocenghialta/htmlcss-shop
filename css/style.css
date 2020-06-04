@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    /* width: 230px; */
+    /* height: 230px; */
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.thirty:after {
+    background-color: orange;
+    content: "-30%";
+}
+.five:after {
+    background-color: red;
+    content: "-5%";
+}
+.heart::after {
+    color: red;
+    content: "\2665";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    /* margin: 0 auto; */
+    /* visibility: hidden; */
+}
